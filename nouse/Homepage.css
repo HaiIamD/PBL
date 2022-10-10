@@ -1,0 +1,128 @@
+body {
+  min-height: 3000px;
+  height: 100%;
+}
+
+.navbar {
+  height: 10%;
+  position: absolute;
+}
+.background {
+  padding-top: 10rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-color: #21797e;
+}
+.judul {
+  text-align: center;
+}
+.judul h1 {
+  font-size: 50px;
+}
+.img img {
+  width: 300px;
+  height: 300px;
+}
+
+.awal {
+  background-color: #245f61;
+  padding-left: 2rem;
+}
+
+.box {
+  background-color: #245f61;
+  padding-top: 8rem;
+  padding-bottom: 20rem;
+}
+
+.kampus {
+  background-color: #245f61;
+}
+.video {
+  position: absolute;
+  right: 0;
+}
+
+/* GALERRY */
+body {
+  background: #3c6ba5;
+}
+
+.container {
+  width: 80%;
+  margin: 80px auto;
+}
+.container h1 {
+  padding: 60px 0;
+  color: aliceblue;
+  font-size: 55px;
+  text-align: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.col {
+  flex-basis: 50%;
+  min-width: 250 px;
+}
+.feature-img {
+  width: 83%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.small-img-row {
+  display: flex;
+  background: #efefee;
+  margin: 15px 0;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 85%;
+}
+.small-img {
+  position: relative;
+}
+.small-img {
+  width: 150px;
+}
+.small-img-row p {
+  margin-left: 20px;
+  color: #707070;
+  line-height: 22px;
+  font-size: 15px;
+}
+.play-btn {
+  width: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.small-img .play-btn {
+  width: 35px;
+}
+.video-player {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.video:focus {
+  outline: none;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+}
