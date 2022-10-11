@@ -30,22 +30,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ">
             <li class="nav-item mx-3 ms-auto ">
-              <a class="nav-link " aria-current="page" href="Parallax.html
-              
-              ">Homepage</a>
+              <a class="nav-link " aria-current="page" href="Parallax.html">Homepage</a>
             </li>
             <li class="nav-item mx-3 ">
-              <a class="nav-link active" href="logbook.html">Logbook</a>
+              <a class="nav-link active" href="logbook.php">Logbook</a>
             </li>
             <li class="nav-item mx-3 ">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           
           </ul>
           <div>
-           
             <a href="userpage.html" class="orang"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
               <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
