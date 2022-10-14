@@ -12,6 +12,7 @@ $name=$_POST['name'];
 $username=$_POST['username'];
 $email=$_POST['email'];
 $password=$_POST['password'];
+
                
 
 $query = "INSERT INTO tbl_users VALUES('$name','$username','$email','$password')";

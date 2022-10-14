@@ -6,8 +6,11 @@ session_start();
 include 'koneksipbl.php';
 
 // menangkap data yang dikirim dari form
-$email = $_POST['email'];
-$password = $_POST['password'];
+
+// $email =$_POST['email'];
+// $password =$_POST['password'];
+$email =mysqli_real_escape_string($koneksi,$_POST['email']);
+$password =mysqli_real_escape_string($koneksi,$_POST['password']);
 
 // menyeleksi data admin dengan username dan password yang sesuai
 $data = mysqli_query($koneksi,"select * from tbl_users where email='$email' and password='$password'");
